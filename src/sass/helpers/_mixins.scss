@@ -1,0 +1,19 @@
+@mixin primary-margin-sides {
+  margin-left: 10px;
+  margin-right: 10px;
+
+  @include breakpoint (medium) {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@mixin primary-padding-sides {
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @include breakpoint (medium) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

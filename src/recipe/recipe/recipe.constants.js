@@ -1,0 +1,4 @@
+
+export const FETCHING_RECIPE = 'FETCHING_RECIPE';
+
+export const LOAD_RECIPE = 'LOAD_RECIPE';

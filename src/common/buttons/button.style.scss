@@ -1,0 +1,14 @@
+@import
+"../../sass/helpers/variables";
+
+$button-margin: 10px;
+
+.c-button {
+  width: $header-height - ($button-margin * 2);
+  height: $header-height - ($button-margin * 2);
+  margin: $button-margin;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,31 @@
+@import
+"../../sass/helpers/variables";
+
+.c-recipe-details{
+  position: relative;
+
+  &__item{
+    display: inline-block;
+    vertical-align: top;
+    height: 36px;
+    line-height: 36px;
+    margin: 15px;
+    &.-right{
+      position: absolute;
+      right: 0;
+    }
+  }
+  &__item-number{
+    font-weight: 600;
+    color: grey;
+    font-size: inherit;
+  }
+
+  &__summary{
+    margin: 30px 15px;
+  }
+
+  hr:last-child{
+    margin-bottom: 0;
+  }
+}

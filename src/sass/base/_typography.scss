@@ -1,0 +1,41 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.05rem;
+}
+
+h1{
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: $color-primary-text;
+}
+
+h2{
+  font-size: 1.4rem;
+  height: 1.4rem;
+}
+
+h3{
+  font-size: 1.15rem;
+  height: 1rem;
+}
+
+h1, h2, h3, h4{
+  //font-weight: 300;
+}
+
+p{
+  line-height: 1.6;
+}
+
+a{
+ color: $color-secondary-highlight;
+  &:hover{
+    color: $color-highlight
+  }
+}
+
+button{
+  font-weight: 400;
+}

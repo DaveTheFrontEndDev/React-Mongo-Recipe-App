@@ -1,0 +1,17 @@
+@import
+  "../../sass/helpers/breakpoints",
+  "../../sass/helpers/mixins";
+
+$main-bottom-margin: 64px;
+
+.c-main {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  @include primary-margin-sides;
+
+  margin-top: 10px;
+  margin-bottom: $main-bottom-margin;
+
+}

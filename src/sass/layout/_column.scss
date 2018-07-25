@@ -1,0 +1,30 @@
+$column-item-gap: 10px;
+
+.l-column {
+  column-gap: $column-item-gap;
+  columns: 3;
+  &.-small-count-1 {
+    @include breakpoint (small) {
+      columns: 1;
+    }
+  }
+  &.-medium-count-2 {
+    @include breakpoint (medium) {
+      columns: 2;
+    }
+  }
+  &.-large-count-3 {
+    @include breakpoint (large) {
+      columns: 3;
+    }
+  }
+  &.-huge-count-4 {
+    @include breakpoint (huge) {
+      columns: 4;
+    }
+  }
+
+  &__item{
+    margin: 0 0 $column-item-gap 0;
+  }
+}

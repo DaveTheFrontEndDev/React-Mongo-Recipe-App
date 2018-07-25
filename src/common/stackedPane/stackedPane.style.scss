@@ -1,0 +1,16 @@
+.c-stacked-pane{
+  &__back{
+    z-index: 1000;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background-color: rgba(1,1,1,0.4);
+    opacity: 0.8;
+    border-radius: 100%;
+
+    &:hover{
+      background-color: rgba(1,1,1,0.6);
+      opacity: 1;
+    }
+  }
+}

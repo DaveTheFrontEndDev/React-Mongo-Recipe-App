@@ -1,0 +1,11 @@
+.c-recipe-steps{
+  grid-column: 2/-1;
+  justify-self: stretch;
+  background: rgba(1,1,1,0.02);
+  ol{
+    padding-left: 10px;
+    li{
+      list-style-position:inside;
+    }
+  }
+}

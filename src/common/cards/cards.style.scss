@@ -1,0 +1,50 @@
+@import
+  "../../sass/helpers/variables",
+  "../../sass/helpers/breakpoints";
+
+.c-cards{
+
+  &__card{
+    padding:0px;
+    position: relative;
+
+    &:hover .c-cards__caption{
+      height: 84px;
+    }
+
+    cursor: pointer;
+  }
+
+  &__img{
+    width:100%;
+    vertical-align: middle;
+  }
+
+  &__caption{
+    width:100%;
+    background: rgba(1,1,1,0.7);
+    position: absolute;
+    bottom: 0;
+    padding: 0 5%;
+    box-sizing: border-box;
+    color: $color-secondary-text;
+    height: 84px;
+
+    @include breakpoint (medium) {
+      height: 42px;
+      transition: height 0.1s;
+    }
+
+  }
+
+  &__summary{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  &__title{
+    font-weight:600;
+  }
+
+}

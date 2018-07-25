@@ -1,0 +1,30 @@
+@import
+  "../../sass/helpers/variables";
+
+.c-header {
+  position: relative;
+  background: $color-primary;
+  color: $color-secondary-text;
+  text-align: center;
+  height: $header-height;
+
+  &__icon {
+    position: relative;
+    display: inline-block;
+    height: $header-height;
+    width: auto;
+    padding: 20px 0;
+    margin-right: 15px;
+    box-sizing: border-box;
+  }
+
+  h2 {
+    display: inline-block;
+    vertical-align: top;
+    color: inherit;
+    box-sizing: border-box;
+    height: $header-height;
+    margin: 0;
+    line-height: $header-height;
+  }
+}
