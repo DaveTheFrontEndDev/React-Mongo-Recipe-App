@@ -1,6 +1,8 @@
 ReactJS + Mongo: Recipe App
 ================
 
+![Recipe App Example](docs/resources/recipe-app-example.gif)
+
 ## Setup
 
 This application has been:
