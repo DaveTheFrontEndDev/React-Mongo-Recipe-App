@@ -55,6 +55,12 @@ npm run build-db
 
 Currently, there are only tests for the API. In the future, tests for front-end components would be desirable.
 
+You can run the api tests with
+
+```console
+npm run test
+```
+
 ### Mock Mode
 
 In the browser console you can set the application to only use mocked data and not rely on an api or database:
