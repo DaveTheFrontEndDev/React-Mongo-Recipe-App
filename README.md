@@ -102,3 +102,10 @@ For an example of this, read [here](https://www.viget.com/articles/bem-sass-modi
 Additional directories added based on Harry Robert's namespacing technique linked [here](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/) and [here](https://www.smashingmagazine.com/2016/06/battling-bem-extended-edition-common-problems-and-how-to-avoid-them/)
 
 Component styles have been added in their directories, making them more modular. Most components represents a block (in BEM).
+
+## What I would like to change / TODOs
+
+- Component Sass files are loaded with the modules but load as individual css files. This is not the best for performance so I would like to find a solution that includes it in the bundle.
+- Add front-end tests with Jest. I have added tests for the API but did not have time for the front-end.
+- Add docker container files. To make this application fast and reliable to deploy ofcourse.
+- More features / design. I did not have enough time to focus on design very much, this is something that I would definetly like to revisit once I have some more time. Perhaps some animated svgs for loading screens?
